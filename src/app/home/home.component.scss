@@ -1,0 +1,43 @@
+.home-page {
+
+  .main-section {
+    .mainSecImg {
+      height: 700px;
+      width: 100%;
+    }
+  }
+  .blog-section {
+    .inner-div {
+      display: table;
+      vertical-align: middle;
+      border: #5799cb solid 1px;
+      border-radius: 5px;
+      height: 100%;
+      margin: 0 10px;
+
+    }
+  }
+    .services-section
+    {
+      text-align: center;
+
+
+      .main-title{
+        width:100%;
+      .centered-border
+      {
+        border-bottom : #6fab51 solid 4px;
+      }
+      }
+      .services{
+        list-style: none;
+      li {
+        height: 250px;
+        text-align: center;
+      }
+    ;
+    }
+
+    }
+  }
+

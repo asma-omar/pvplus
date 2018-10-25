@@ -1,0 +1,35 @@
+.fixed-header {
+  position: fixed;
+  background-color: #62a2d0;
+  background: linear-gradient(145deg, #fcfdff, #509dd4); //#b8b0a2
+  width: 100%;
+  color: white;
+  margin-bottom: 84px;
+  z-index: 1;
+  .nav-logo {
+    display: inline-block;
+    img {
+      width: 200px;
+    }
+  }
+  ul {
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+    transform: translateY(65%);
+    color: #509dd4;
+    li {
+      display: inline-block;
+      padding: 5px;
+      color: #509dd4;
+    }
+  }
+}
+
+footer {
+  padding: 20px 50px;
+  width: 100%;
+  background-color: #5799cb; //#b8b0a2
+  height: 250px;
+  color: white;
+  }
